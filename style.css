@@ -5,27 +5,6 @@
     overflow-x: hidden;
 } 
 
-swiper-container {
-    width: 99vw;
-    height: 99vh;
-  }
-
-  swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  swiper-slide img {
-    display: block;
-    width: 99vw;
-    height: 99vh;
-    object-fit: cover;
-  }
-
 .front{
     z-index: 1;
 }
@@ -33,12 +12,17 @@ swiper-container {
 .navbar{
     border: 1px solid orangered;
     width: 99vw;  
-    height: 9.8vh;
+    height: 15vh;
     position: absolute;
     z-index: 1000;
-    margin-top: 8vh;
+    margin-top: 5vh;
 }
 
+.logo1{
+    position: absolute;
+    margin-left: 8vw;
+    margin-top: -0.7vh;
+}
 
 .banner{
     border: 1px solid black;
@@ -72,3 +56,36 @@ swiper-container {
     background-color: black;
     opacity: 1;
 }
+
+swiper-container {
+    width: 99vw;
+    height: 99vh;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #616161;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(-90);
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 99vw;
+    height: 99vh;
+    object-fit: cover;
+    filter: brightness(60%);
+  }
+
+  .s1c{
+    position: absolute;
+    border: 1px solid yellow;
+    color: white;
+    width: 38.6vw;
+    height: 10vh;
+    font-size: 47.4px;
+    padding: 0;
+  }
