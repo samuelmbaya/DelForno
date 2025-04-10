@@ -36,10 +36,71 @@
     height: 81vh;
 }
 
+.abth1{
+    font-size: 20px;
+    margin-top: 100px;
+    padding-left: 9.4vw;
+}
+
+.abth2{
+    font-size: 30px;
+    margin-left: 9.4vw;
+    margin-top: 18px;
+}
+
+.h2span{
+   color: #f94545;
+}
+
+.abtb1{
+    color: #f94545;
+    letter-spacing: 4px;
+    font-size: 20px; 
+    padding-left: 9.4vw;
+    /* margin-top: 200px !important;  */
+}
+
+.bgshading{
+    border: 1px dotted;
+    border-color: #c19d60;
+    background: #f9f9f9;
+    height: 150px;
+    width: 30vw;
+    margin-left: 53.6vw; 
+    margin-top: 26vh;
+}
+
+.abtimg1{
+    position: absolute;
+    margin-left: 161.5vh;
+    height: 75.3vh;
+    margin-top: -67.5vh;
+}
+
+.abtimg2{
+    position: absolute;
+    margin-left: 50.4vw ;
+    width: 39.67vw;
+    margin-top: -60.5vh;
+}
+
 .window{
     border: 1px solid blue;
     width: 99vw;
     height: 61.5vh;
+    background-image: url(/images/mountainlake02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.winimg1{
+    position: absolute;
+}
+
+.winimg2{
+position: absolute;
+  margin-top: 55.9vh;
 }
 
 .menu{
