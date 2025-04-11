@@ -31,7 +31,6 @@
 } 
 
 .about{
-    border: 1px solid green;
     width: 99vw;
     height: 81vh;
 }
@@ -40,15 +39,19 @@
     font-size: 20px;
     margin-top: 100px;
     padding-left: 9.4vw;
+    font-family: 'Oswald';
+    color: #616161;
 }
 
 .abth2{
     font-size: 30px;
     margin-left: 9.4vw;
-    margin-top: 18px;
+    margin-top: 17px;
+    font-family: 'Oswald';
+    color: #616161;
 }
 
-.h2span{
+.h2span1{
    color: #f94545;
 }
 
@@ -84,14 +87,70 @@
     margin-top: -60.5vh;
 }
 
+.abtp1{
+    position: absolute;
+    font-size: 14px; 
+    padding-left: 9.4vw;
+    margin-top: -42vh;
+    line-height: 20px;
+    font-family: "Roboto", serif;
+    color: #5e646a;
+}
+
+.abtp2{
+    position: absolute;
+    font-size: 14px;
+    padding-left: 9.4vw;
+    line-height: 20px;
+    margin-top: -30vh;
+    font-family: "Roboto", serif;
+    color: #5e646a;
+}
+
+.read-more-button {
+    background-color: #e53935;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-family: 'Arial', sans-serif;
+    position: absolute;
+    margin-left: 9.4vw;
+    margin-top: -18vh;
+    font-family: 'Oswald';
+}
+
+.read-more-button:hover {
+    background-color: #d32f2f; 
+}
+
+.abtspan1{
+  margin-left: 15px;
+}
+
 .window{
-    border: 1px solid blue;
+    position: relative;
     width: 99vw;
     height: 61.5vh;
+    overflow: hidden;
+    z-index: 0;
+    
+}
+
+.window::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
     background-image: url(/images/mountainlake02.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(60%);
+    z-index: -1;
 }
 
 .winimg1{
@@ -141,12 +200,89 @@ swiper-container {
     filter: brightness(60%);
   }
 
-  .s1c{
+  .s1c1{
     position: absolute;
     border: 1px solid yellow;
     color: white;
-    width: 38.6vw;
-    height: 10vh;
-    font-size: 47.4px;
-    padding: 0;
+    font-family: 'Oswald';
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: -7.55vh;
   }
+
+  .s1p1{
+    font-size: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+  }
+
+  .s1hr{
+    margin-top: -25.3vh;
+    position: absolute;
+    width: 3.4vw;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  .s1c2{
+      position: absolute;
+      border: 1px solid yellow;
+      color: white;
+      font-family: 'Oswald';
+      display: flex;
+      align-items: center;
+      margin-top: 10.9vh;
+    }
+
+    .s1h4{
+      font-size: 30px;
+    }
+
+    .winh1{
+        font-family: 'Oswald';
+        color: #f94545;
+        font-size: 30px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:12.6vh;
+    }
+
+    .winh2{
+        font-family: 'Oswald';
+        font-size: 40px;
+        color: white;
+        text-align: center;
+    }
+
+    .winh2{
+        margin-top: 2.4vh;
+    }
+
+    .winb1{
+        color: #f94545;
+        letter-spacing: 4px;
+        font-size: 20px; 
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.5vh;
+    }
+
+    .winh3{
+        font-family: 'Oswald';
+        font-size: 24px;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3.9vh;
+        font-weight: 400;
+    }
