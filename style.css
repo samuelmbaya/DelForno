@@ -10,7 +10,6 @@
 }
 
 .navbar{
-    border: 1px solid orangered;
     width: 99vw;  
     height: 15vh;
     position: absolute;
@@ -20,15 +19,124 @@
 
 .logo1{
     position: absolute;
-    margin-left: 8vw;
-    margin-top: -0.7vh;
+    margin-left: 8.1vw;
+    margin-top: -0.3vh;
 }
+
+.order-online-btn {
+    position: absolute;
+    margin-top: 1.8vh;
+    padding: 1px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 65px;
+    font-family: 'Oswald'; 
+    color: white;
+    margin-left: 22.2vw;
+    background-color: transparent;
+    border: 1px solid #f94545;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-online-btn:hover {
+    background-color: rgba(249, 69, 69, 1); 
+    color: white;
+  }
+
+  .home{
+    position: absolute;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    color: #ed1c24;
+    margin-left: 106vh;
+    margin-top: 5vh;
+  }
+
+  .aboutus{
+    font-family: "Roboto", serif;
+    position: absolute;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 5vh;
+    font-weight: 600;
+    margin-left: 115vh;
+  }
+
+  .opportunities{
+    font-family: "Roboto", serif;
+    position: absolute;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 5vh;
+    font-weight: 600;
+    margin-left: 130.5vh;
+  }
+
+  .stores{
+    font-family: "Roboto", serif;
+    position: absolute;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 5vh;
+    font-weight: 600;
+    margin-left: 150.8vh;
+  }
+
+  .menu{
+    font-family: "Roboto", serif;
+    position: absolute;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 5vh;
+    font-weight: 600;
+    margin-left: 161.6vh;
+  }
+
+  .promotion{
+    font-family: "Roboto", serif;
+    position: absolute;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 5vh;
+    font-weight: 600;
+    margin-left: 170.8vh;
+  }
 
 .banner{
     border: 1px solid black;
     width: 100vw;
     height: 99vh;
 } 
+
+.view-stores-btn {
+    position: absolute;
+    background: rgb(249, 69, 69);       
+    color: #fff;                     
+    font-size: 16px; 
+    font-family: 'Oswald';                   
+    font-weight: 600;               
+    padding: 14px 20px;   
+    border: 1px;   
+    margin-top: 48vh;           
+    border-color: #ed1c24;                               
+    cursor: pointer;                    
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .view-stores-btn:hover {
+   background: #fff;
+   color: #f94545;
+   border: transparent;
+  }
+  
 
 .about{
     width: 99vw;
@@ -162,11 +270,32 @@ position: absolute;
   margin-top: 55.9vh;
 }
 
-.menu{
+/* .menu{
     border: 1px solid purple;
     width: 99vw;
     height: 100vh;
+    text-align: center;
+     display: flex;
+    align-items: center;
+    justify-content: center;   
+    margin-top: -33.5vh;
 }
+
+.menuh4{
+    font-size: 20px;
+    color: #616161;
+    font-family: 'Oswald';
+}
+
+.menuh2{
+    font-family: 'Oswald';
+    color: #616161;
+    margin-top: 10vh; 
+}
+
+.mspan1{
+    color: #f94545;
+} */
 
 .back{
     border: 1px solid ridge red;
@@ -202,7 +331,6 @@ swiper-container {
 
   .s1c1{
     position: absolute;
-    border: 1px solid yellow;
     color: white;
     font-family: 'Oswald';
     display: flex;
@@ -221,6 +349,7 @@ swiper-container {
   }
 
   .s1hr{
+    font-weight: 100;
     margin-top: -25.3vh;
     position: absolute;
     width: 3.4vw;
@@ -228,9 +357,36 @@ swiper-container {
     background: rgba(255, 255, 255, 0.6);
   }
 
+  .s1hr2{
+position: absolute;
+color: black;
+background: #292929;
+width: 8vw;
+margin-top: 30vh;
+margin-left: -18.5vw;
+opacity: 20%;
+  }
+
+  .s1hr3{
+position: absolute;
+position: absolute;
+color: black;
+background: #292929;
+width: 8vw;
+margin-top: 30vh;
+margin-left: 18.4vw;
+opacity: 20%;
+}
+
+.spannn{
+    position: absolute;
+    margin-top: 26.5vh;
+    color: white;
+    font-size: 50px;
+}
+
   .s1c2{
       position: absolute;
-      border: 1px solid yellow;
       color: white;
       font-family: 'Oswald';
       display: flex;
@@ -240,6 +396,7 @@ swiper-container {
 
     .s1h4{
       font-size: 30px;
+      margin-top: 5vh;
     }
 
     .winh1{
