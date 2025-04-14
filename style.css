@@ -6,8 +6,11 @@
 } 
 
 .front{
-  position: fixed;
-  z-index: 1000;   
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;   
 } 
 
 .navbar{
@@ -446,9 +449,11 @@ color: #f94545;
 }
 
 .back{
+  position: relative;
+  z-index: 1x;
     border: 1px solid ridge red;
     width: 99vw;
-    height: 1500vh;
+    height: 150%;
     position: fixed;
     background-color: black;
     opacity: 1;
