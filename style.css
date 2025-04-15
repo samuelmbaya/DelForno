@@ -5,14 +5,6 @@
     overflow-x: hidden;
 } 
 
-.front{
-  position: absolute;
-  height: 80%;
-  width: 100%;
-  z-index: 1000;
-  background-color: #fff;   
-} 
-
 .navbar{
     width: 99vw;  
     height: 15vh;
@@ -275,8 +267,9 @@ position: absolute;
 .menu{
   position: absolute;
   width: 100vw;
-  height: 99vh;
-  border: 1px solid blue;
+  height: 100%;
+  z-index: 1000;
+  background-color: #fff;
 }
 
 .mh4{
@@ -311,6 +304,8 @@ color: #f94545;
 
 .keyframes{
   display: flex;
+  position: absolute;
+  z-index: 1000;
 }
 
 .flip-box1 {
@@ -336,6 +331,11 @@ color: #f94545;
 .flip-box1:hover .flip-box-inner1 {
   transform: rotateY(180deg);
 }
+
+.flip-box1:hover .flip-box-back1 {
+ position: absolute;
+}
+
 
 /* Position the front and back side */
 .flip-box-front1, .flip-box-back1 {
@@ -448,16 +448,16 @@ color: #f94545;
   transform: rotateY(180deg);
 }
 
-.back{
+/* .back{
   position: relative;
-  z-index: 1x;
+    z-index: 1;
     border: 1px solid ridge red;
     width: 99vw;
     height: 150%;
     position: fixed;
     background-color: black;
     opacity: 1;
-}
+} */
 
 swiper-container {
     width: 99vw;
@@ -596,4 +596,38 @@ opacity: 20%;
         justify-content: center;
         margin-top: 3.9vh;
         font-weight: 400;
+    }
+
+    .footer{
+      /* position: fixed; */
+      border: 1px solid red;
+      background: #292929;
+      width: 99vw;
+      padding-top: 100vh;
+    }
+
+    .foooterbtm{
+      /* position: absolute; */
+      background: #222;
+      width: 99vw;
+    }
+
+    .section1{
+      height: 90%;
+      z-index: 1000;
+    }
+    
+    .section2{
+      padding-top: 45vh;
+      background: #292929;
+    }
+
+    .section3{
+      padding-top: 11vh;
+      background: #222;
+      
+    }
+
+    .flogo{
+      padding-left: 11vw;
     }
