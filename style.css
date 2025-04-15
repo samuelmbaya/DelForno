@@ -305,14 +305,13 @@ color: #f94545;
 .keyframes{
   display: flex;
   position: absolute;
-  z-index: 1000;
+
 }
 
 .flip-box1 {
   background-color: transparent;
   width: 35vw;
   height: 54vh;
-  border: 1px solid #f1f1f1;
   padding-left: 9.4vw;
   padding-top: 4vh; 
 }
@@ -362,7 +361,6 @@ color: #f94545;
   background-color: transparent;
   width: 27.5vw;
   height: 54vh;
-  border: 1px solid #f1f1f1;
   padding-left: 2vw;
   padding-top: 4vh; 
 }
@@ -407,7 +405,6 @@ color: #f94545;
   background-color: transparent;
   width: 28vw;
   height: 54vh;
-  border: 1px solid #f1f1f1;
   padding-left: 2vw;
   padding-top: 4vh; 
 }
@@ -613,7 +610,6 @@ opacity: 20%;
     }
 
     .section1{
-    +
       z-index: 1000;
     }
     
