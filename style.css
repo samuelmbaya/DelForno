@@ -613,7 +613,7 @@ opacity: 20%;
     }
 
     .section1{
-      height: 90%;
+    +
       z-index: 1000;
     }
     
@@ -629,5 +629,16 @@ opacity: 20%;
     }
 
     .flogo{
+      position: absolute;
       padding-left: 11vw;
+      height:  8vh;
+      overflow: hidden;
+      /* padding-top: -10vh; */
+    }
+
+    .footer_section {
+      position: relative;
+      width: 100%;
+     overflow: hidden;
+      display: block;
     }
