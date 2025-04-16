@@ -1,3 +1,1 @@
-$(document).ready(function() {
-    $.Scrollax();
-  });
+// no js !!
